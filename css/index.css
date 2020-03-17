@@ -1,3 +1,497 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+	box-sizing: border-box;
+	border: 1px gray;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Desktop */
+
+body {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+p {
+	line-height: 1.25;
+}
+
+#home {
+	display: flex;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 30px;
+}
+nav{
+    display:flex;
+	justify-content:space-between;
+
+}
+nav a {
+	color: grey;
+	font-size: 15px;
+	text-decoration: none;
+	padding-right: 50px;
+	align-self: center;
+	justify-content: space-between;
+}
+
+nav a:hover {
+    text-decoration: underline;
+	color: black;
+}
+.logo {
+	float: right;
+}
+
+.section1 {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	align-content: center;
+	justify-content: space-between;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+.tag {
+	font-size: 70px;
+	width: 40%;
+	text-align: center;
+}
+
+.tag p {
+	font-size: 20px;
+	text-align: center;
+}
+
+.image {
+	padding-top: 40px;
+}
 
 
+button {
+    background-color: white;
+    padding: 8px 44px;
+    margin-top: 6px;
+    font-size: 17px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+	padding-top: 30px;
+}
+
+.section2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.features {
+	width: 47%;
+}
+
+.about {
+	width: 47%;
+}
+
+.middle-img {
+	padding-top: 40px;
+	width: 100%;
+	display: flex;
+}
+
+.section3 {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 30px;
+}
+
+.services {
+	width: 32%;
+}
+
+.product {
+	width: 32%;
+}
+
+.vision {
+	width: 32%;
+}
+
+.contact {
+	padding-top: 30px;
+}
+
+footer {
+	font-size: 10px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+hr {
+	border: 0;
+	clear: both;
+	display: block;
+	width: 100%;
+	background-color: black;
+	height: 1px;
+}
+
+
+/* Services Page */
+
+
+
+.containerA {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+	text-align: space-between;
+	margin: 30px 0px 30px 0px;
+}
+
+.services2 {
+	padding-bottom: 30px;
+	width: 100%;
+}
+
+.services2 h2 {
+	top: 
+}
+.design {
+	border: 1px solid black;
+	padding: 10px;
+	background: lightgray;
+	width: 415px;
+	margin-bottom: 30px;
+}
+.UX {
+	border: 1px solid black;
+	padding: 10px;
+	background: lightgray;
+	width: 415px;
+	margin-bottom: 30px;
+}
+.marketing {
+	border: 1px solid black;
+	padding: 10px;
+	background: lightgray;
+	width: 415px;
+	margin-bottom: 30px;
+}
+.web {
+	border: 1px solid black;
+	padding: 10px;
+	background: lightgray;
+	width: 415px;
+	margin-bottom: 30px;
+}
+.iOS {
+	border: 1px solid black;
+	padding: 10px;
+	background: lightgray;
+	width: 415px;
+}
+.android {
+	border: 1px solid black;
+	padding: 10px;
+	background: lightgray;
+	width: 415px;
+}
+
+.button {
+	background-color: white;
+	border: 1px black;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.containerB {
+	display: flex;
+	justify-content: space-between;
+}
+
+.facts {
+		margin: 30px 30px 0px 0px;
+
+}
+
+.services-info-img {
+	padding-top: 40px;
+}
+
+.list {
+	padding-left: 20px;
+
+}
+
+li {
+	margin: 10px 0;
+}
+
+/* Tablet */
+@media(max-width: 800px) {
+    .circle {
+		display: none;
+		margin-bottom: 60px;
+		  }
+		  
+	.tag {
+		margin: 0 auto;
+		font-size: 70px;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.button {
+		margin: 0 auto;
+	}
+
+	nav {
+		flex-direction: column-reverse;
+	}
+
+	nav a {
+		margin-right: 0px;
+		
+	}
+	
+	.logo {
+		margin-bottom: 30px;
+	
+	}
+}
+
+/* Mobile */
+@media(max-width: 500px) {
+	
+	#home {
+		justify-content: center;
+		margin: 0 auto;
+
+	}
+	
+	nav a {
+		border-bottom: 1px solid black;
+		width: 200%;
+		line-height: 2.5em;
+		padding-right: 0px;
+
+	}
+	
+	.links {
+		display:flex;
+		flex-direction: column;
+
+	}
+
+	.section1 {
+		flex-direction: column;
+		justify-content: center;
+	
+	}
+
+	.tag {
+		width: 100%;
+	}
+
+
+	.section2 {
+		flex-direction: column;
+	}
+	
+	.features {
+		width: 100%;
+	}
+	
+	.about {
+		width: 100%;
+	}
+	.section3 {
+		flex-direction: column;
+	}
+	
+	.services {
+		width: 100%;
+	}
+	
+	.product {
+		width: 100%;
+	}
+	
+	.vision {
+		width: 100%;
+	}
+
+	button {
+		padding: 8px 30px;
+		font-size: 12px;
+	}	
+}
